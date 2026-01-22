@@ -87,7 +87,7 @@
         <service
             android:name=".notifications.NotificationReceiver"
             android:exported="true"
-            android:label="Key Mapper Notification Receiver"
+            android:label="Braille Mapper Notification Receiver"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />

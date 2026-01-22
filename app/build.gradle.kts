@@ -25,7 +25,8 @@ android {
     }
 
     defaultConfig {
-        applicationId = "io.github.sds100.keymapper"
+        // Changed for Braille Launcher - custom accessibility keyboard app
+        applicationId = "io.github.cybersentinals.braillelauncher"
         minSdk = libs.versions.min.sdk.get().toInt()
         targetSdk = libs.versions.target.sdk.get().toInt()
 
@@ -60,7 +61,7 @@ android {
 
         debug {
             applicationIdSuffix = ".debug"
-            versionNameSuffix = "-foss-debug"
+            versionNameSuffix = ""
         }
 
         create("debug_release") {
@@ -138,7 +139,7 @@ android {
     applicationVariants.all {
         outputs.all {
             val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "keymapper-$versionName.apk"
+            output.outputFileName = "braille-mapper-$versionName.apk"
         }
     }
 }
@@ -159,6 +160,7 @@ dependencies {
 
     // Other
     implementation(libs.jakewharton.timber)
+    implementation(libs.kotson)
 
     // Androidx
     implementation(libs.androidx.core.ktx)

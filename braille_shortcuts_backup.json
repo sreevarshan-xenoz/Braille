@@ -1,0 +1,230 @@
+{
+  "keymap_db_version": 21,
+  "keymap_list": [
+    {
+      "actionList": [{"data": "answer_phone_call", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a001"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t001a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 29, "uid": "t001b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-a"
+    },
+    {
+      "actionList": [{"data": "end_phone_call", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a002"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t002a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 32, "uid": "t002b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-d"
+    },
+    {
+      "actionList": [{"data": "go_home", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a003"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t003a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 35, "uid": "t003b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-g"
+    },
+    {
+      "actionList": [{"data": "go_back", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a004"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t004a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 30, "uid": "t004b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-b"
+    },
+    {
+      "actionList": [{"data": "open_recents", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a005"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t005a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 46, "uid": "t005b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-r"
+    },
+    {
+      "actionList": [{"data": "go_last_app", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a006"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t006a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 38, "uid": "t006b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-j"
+    },
+    {
+      "actionList": [{"data": "open_assistant", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a007"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t007a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 51, "uid": "t007b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-w"
+    },
+    {
+      "actionList": [{"data": "expand_notification_drawer", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a008"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t008a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 42, "uid": "t008b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-n"
+    },
+    {
+      "actionList": [{"data": "expand_quick_settings", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a009"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t009a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 45, "uid": "t009b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-q"
+    },
+    {
+      "actionList": [{"data": "open_settings", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a010"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t010a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 47, "uid": "t010b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-s"
+    },
+    {
+      "actionList": [{"data": "lock_device", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a011"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t011a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 40, "uid": "t011b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-l"
+    },
+    {
+      "actionList": [{"data": "collapse_status_bar", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a012"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t012a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 33, "uid": "t012b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-e"
+    },
+    {
+      "actionList": [{"data": "screenshot", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a013"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t013a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 48, "uid": "t013b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-t"
+    },
+    {
+      "actionList": [{"data": "toggle_flashlight", "extras": [{"data": "BACK", "id": "extra_flash"}], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a014"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t014a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 34, "uid": "t014b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-f"
+    },
+    {
+      "actionList": [{"data": "toggle_bluetooth", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a015"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t015a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 36, "uid": "t015b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-h"
+    },
+    {
+      "actionList": [{"data": "toggle_wifi", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a016"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t016a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 37, "uid": "t016b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-i"
+    },
+    {
+      "actionList": [{"data": "open_camera", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a017"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t017a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 43, "uid": "t017b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-o"
+    },
+    {
+      "actionList": [{"data": "volume_toggle_mute", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a018"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t018a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 41, "uid": "t018b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-m"
+    },
+    {
+      "actionList": [{"data": "show_keyboard_picker", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a019"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t019a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 39, "uid": "t019b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-k"
+    },
+    {
+      "actionList": [{"data": "play_pause_media", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a020"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t020a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 44, "uid": "t020b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-p"
+    },
+    {
+      "actionList": [{"data": "next_track", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a021"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t021a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 52, "uid": "t021b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-x"
+    },
+    {
+      "actionList": [{"data": "previous_track", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a022"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t022a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 54, "uid": "t022b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-z"
+    },
+    {
+      "actionList": [{"data": "copy", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a023"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t023a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 53, "uid": "t023b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-y"
+    },
+    {
+      "actionList": [{"data": "paste", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a024"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t024a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 50, "uid": "t024b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-v"
+    },
+    {
+      "actionList": [{"data": "dismiss_most_recent_notification", "extras": [], "flags": 0, "type": "SYSTEM_ACTION", "uid": "a025"}],
+      "constraintList": [], "constraintMode": 1, "flags": 0, "isEnabled": true,
+      "trigger": {"extras": [], "flags": 0, "keys": [
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 113, "uid": "t025a"},
+        {"clickType": 0, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "flags": 0, "keyCode": 49, "uid": "t025b"}
+      ], "mode": 0},
+      "uid": "braille-ctrl-u"
+    }
+  ]
+}

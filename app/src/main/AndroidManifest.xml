@@ -30,7 +30,7 @@
         <!--  Allow clear text traffic due to the HTTP Request Action. -->
 
         <activity
-            android:name=".MainActivity"
+            android:name="io.github.sds100.keymapper.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.App.Starting"
             android:windowSoftInputMode="adjustResize">
@@ -53,7 +53,7 @@
         </activity>
 
         <service
-            android:name=".system.accessibility.MyAccessibilityService"
+            android:name="io.github.sds100.keymapper.system.accessibility.MyAccessibilityService"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">

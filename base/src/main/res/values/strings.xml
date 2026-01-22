@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name" translatable="false">Key Mapper</string>
-    <string name="slogan">Unleash your keys!</string>
+    <string name="app_name" translatable="false">Braille Mapper</string>
+    <string name="slogan">Accessibility shortcuts for braille keyboards!</string>
 
-    <string name="accessibility_service_explanation">Key Mapper requires the use of an accessibility service so that it can detect and change what your button presses do while you are outside of the app. Your key maps will only work once you have enabled the accessibility service. It must also be turned on to create a trigger and test actions.</string>
+    <string name="accessibility_service_explanation">Braille Mapper requires the use of an accessibility service so that it can detect and change what your button presses do while you are outside of the app. Your key maps will only work once you have enabled the accessibility service. It must also be turned on to create a trigger and test actions.</string>
     <string name="selection_count"> selected</string>
-    <string name="ime_service_label" translatable="false">Key Mapper Input Method</string>
+    <string name="ime_service_label" translatable="false">Braille Mapper Input Method</string>
     <string name="enable">Enable</string>
     <string name="shrug" translatable="false">¯\\_(ツ)_/¯</string>
     <string name="recyclerview_placeholder">¯\\_(ツ)_/¯\n\nNothing here!</string>
@@ -23,7 +23,7 @@
     <string name="button_restart_accessibility_service">Restart accessibility service</string>
     <string name="share_backup">Share</string>
     <string name="app_list_empty">Nothing here!</string>
-    <string name="ui_element_list_empty">Key Mapper did not detect any interactions. Try showing additional elements.</string>
+    <string name="ui_element_list_empty">Braille Mapper did not detect any interactions. Try showing additional elements.</string>
     <string name="stop_repeating_dot_dot_dot">Stop repeating when…</string>
     <string name="stop_repeating_when_trigger_released">Trigger is released</string>
     <string name="stop_repeating_trigger_pressed_again">Trigger is pressed again</string>
@@ -47,10 +47,10 @@
     <string name="intent_extras_recycler_view_placeholder">¯\\_(ツ)_/¯\n\nNo extras!</string>
     <string name="content_description_done_configuring_key_event">Done configuring key event action</string>
     <string name="content_description_done_configuring_coordinate">Done picking coordinate</string>
-    <string name="clip_key_mapper_log">Key Mapper log</string>
+    <string name="clip_key_mapper_log">Braille Mapper log</string>
 
     <string name="whats_new">What\'s New</string>
-    <string name="caption_action_type_sound">You can either use a system ringtone or select a custom sound file.\n\nThe custom sound file will be copied to Key Mapper\'s private data folder, which means your actions will still work even if the file is moved or deleted. It will also be backed up with your key maps in the zip folder.
+    <string name="caption_action_type_sound">You can either use a system ringtone or select a custom sound file.\n\nThe custom sound file will be copied to Braille Mapper\'s private data folder, which means your actions will still work even if the file is moved or deleted. It will also be backed up with your key maps in the zip folder.
     You can delete saved sound files in the settings.</string>
 
     <string name="caption_no_paired_bt_devices">Can\'t find any paired devices. Is Bluetooth turned on?</string>
@@ -61,7 +61,7 @@
     <string name="switch_disabled">Disabled</string>
 
     <string name="reset">Reset</string>
-    <string name="enable_device_admin_message">Once you have enabled the device admin, you must DEACTIVATE it if you want to uninstall Key Mapper.</string>
+    <string name="enable_device_admin_message">Once you have enabled the device admin, you must DEACTIVATE it if you want to uninstall Braille Mapper.</string>
 
     <string name="action_title_wait">Wait %sms</string>
 
@@ -73,10 +73,10 @@
 
     <string name="trigger_error_dnd_access_denied">Permission required to work properly in Do Not Disturb mode!</string>
     <string name="trigger_error_cant_detect_in_phone_call">This trigger won\'t work while ringing or in a phone call!</string>
-    <string name="trigger_error_cant_detect_in_phone_call_explanation">Android doesn\'t let accessibility services detect volume button presses while your phone is ringing or it is in a phone call but it does let input method services detect them. Therefore, you must use the Key Mapper Input Method if you want this trigger to work.</string>
+    <string name="trigger_error_cant_detect_in_phone_call_explanation">Android doesn\'t let accessibility services detect volume button presses while your phone is ringing or it is in a phone call but it does let input method services detect them. Therefore, you must use the Braille Mapper Input Method if you want this trigger to work.</string>
     <string name="trigger_error_gesture_stroke_count_too_high">Too many fingers to perform gesture due to android limitations.</string>
     <string name="trigger_error_gesture_duration_too_high">Gesture duration is too high due to android limitations.</string>
-    <string name="trigger_error_dpad_ime_not_selected">You must be using the Key Mapper Input Method for DPAD triggers to work!</string>
+    <string name="trigger_error_dpad_ime_not_selected">You must be using the Braille Mapper Input Method for DPAD triggers to work!</string>
     <string name="trigger_error_system_bridge_unsupported">Expert Mode is unsupported on this Android version</string>
     <string name="trigger_error_system_bridge_disconnected">Expert Mode not started!</string>
     <string name="trigger_error_evdev_device_not_found">Trigger device not connected!</string>
@@ -86,7 +86,7 @@
     <string name="home_error_key_maps_paused">Your key maps are paused!</string>
     <string name="home_error_key_maps_paused_button">Unpause</string>
     <string name="home_error_accessibility_service_is_disabled">The accessibility service needs to be turned on for your key maps to work!</string>
-    <string name="home_error_accessibility_service_is_crashed">Your phone killed Key Mapper when it was in the background or it crashed!</string>
+    <string name="home_error_accessibility_service_is_crashed">Your phone killed Braille Mapper when it was in the background or it crashed!</string>
     <string name="home_success_accessibility_service_is_enabled">The accessibility service is enabled! Your key maps should work.</string>
     <string name="home_error_logging_enabled">Extra logging is turned on! Turn this off if you aren\'t trying to fix an issue.</string>
     <string name="home_error_logging_enabled_button">Turn off</string>
@@ -150,7 +150,7 @@
     <string name="hint_intent_class">Class</string>
     <string name="hint_intent_extra_name">Name</string>
     <string name="hint_intent_extra_value_with_type">Value (%s)</string>
-    <string name="hint_intent_description">Description for Key Mapper (required)</string>
+    <string name="hint_intent_description">Description for Braille Mapper (required)</string>
     <string name="hint_intent_flags">Flags</string>
     <string name="hint_sound_file_description">Sound file description</string>
     <string name="hint_wifi_ssid">WiFi network SSID</string>
@@ -200,8 +200,8 @@
     <string name="toast_triggered_keymap">You\'ve triggered a key map</string>
     <string name="toast_copied_log">Copied log</string>
     <string name="toast_no_sound_files">You have saved no sound files!</string>
-    <string name="toast_granted_itself_write_secure_settings_with_shizuku">Key Mapper has used Shizuku to grant itself WRITE_SECURE_SETTINGS permission</string>
-    <string name="toast_granted_itself_write_secure_settings_with_root">Key Mapper has used Root to grant itself WRITE_SECURE_SETTINGS permission</string>
+    <string name="toast_granted_itself_write_secure_settings_with_shizuku">Braille Mapper has used Shizuku to grant itself WRITE_SECURE_SETTINGS permission</string>
+    <string name="toast_granted_itself_write_secure_settings_with_root">Braille Mapper has used Root to grant itself WRITE_SECURE_SETTINGS permission</string>
     <string name="toast_microphone_muted">Microphone muted</string>
     <string name="toast_microphone_unmuted">Microphone unmuted</string>
     <!--  Toasts  -->
@@ -435,7 +435,7 @@
     <string name="dialog_title_cant_find_accessibility_settings_page">Can\'t find the accessibility settings page</string>
     <string name="dialog_title_unsaved_changes">Unsaved changes</string>
     <string name="dialog_message_unsaved_changes"> You have unsaved changes. If you discard them, your edits will be lost.</string>
-    <string name="dialog_message_root_prompt">Please grant Key Mapper root permission in your root management app, such as Magisk.</string>
+    <string name="dialog_message_root_prompt">Please grant Braille Mapper root permission in your root management app, such as Magisk.</string>
 
     <string name="dialog_title_write_secure_settings">Grant WRITE_SECURE_SETTINGS permission</string>
     <string name="dialog_message_write_secure_settings">You will need to use Expert Mode to grant this permission.</string>
@@ -450,18 +450,18 @@
     <string name="dialog_message_bt_constraint_limitation">Android doesn\'t allow apps to get a list of connected (not paired) Bluetooth devices. Apps can only detect when they are connected and disconnected. So if your Bluetooth device is already connected to your device when the accessibility service starts, you will have to reconnect it for the app to know it is connected.</string>
     <string name="dialog_title_change_location_or_disable">Automatic backup</string>
     <string name="dialog_message_change_location_or_disable">Change location or turn off automatic back up?</string>
-    <string name="dialog_message_password_screen_lock_warning">If you have any other screen lock chosen, such as PIN or Pattern then you don\'t have to worry. But if you have a Password screen lock you will *NOT* be able to unlock your phone if you use the Key Mapper Input Method because it doesn\'t have a GUI. You can grant Key Mapper WRITE_SECURE_SETTINGS permission so it can show a notification to switch to and from the keyboard. There is a guide on how to do this if you tap the question mark at the bottom of the screen.</string>
+    <string name="dialog_message_password_screen_lock_warning">If you have any other screen lock chosen, such as PIN or Pattern then you don\'t have to worry. But if you have a Password screen lock you will *NOT* be able to unlock your phone if you use the Braille Mapper Input Method because it doesn\'t have a GUI. You can grant Braille Mapper WRITE_SECURE_SETTINGS permission so it can show a notification to switch to and from the keyboard. There is a guide on how to do this if you tap the question mark at the bottom of the screen.</string>
     <string name="dialog_message_select_compatible_ime">Select the input method for actions that require one. You can change this later by tapping \"Select keyboard for actions\" in the bottom menu of the home screen.</string>
     <string name="dialog_message_settings_no_external_devices_connected">No external devices connected.</string>
 
     <string name="dialog_title_disable_battery_optimisation">Disable battery optimisation</string>
-    <string name="dialog_message_disable_battery_optimisation">You <b>MUST</b> read this <b>all</b> otherwise you will get <b>frustrated</b> in the future!\n\nTapping \"fix partially\" <b>might</b> prevent Android from stopping the app while it is in the background.\n\n<b>This is NOT ENOUGH</b>. Your OEM\'s skin such as MIUI or Samsung Experience may have other app killing features so you MUST turn them off for Key Mapper as well by following the online guide at dontkillmyapp.com.</string>
+    <string name="dialog_message_disable_battery_optimisation">You <b>MUST</b> read this <b>all</b> otherwise you will get <b>frustrated</b> in the future!\n\nTapping \"fix partially\" <b>might</b> prevent Android from stopping the app while it is in the background.\n\n<b>This is NOT ENOUGH</b>. Your OEM\'s skin such as MIUI or Samsung Experience may have other app killing features so you MUST turn them off for Braille Mapper as well by following the online guide at dontkillmyapp.com.</string>
 
     <string name="dialog_message_restart_accessibility_service">Restart the accessibility service by turning it <i>off</i> and <i>on</i>.</string>
 
 
-    <string name="dialog_title_key_mapper_crashed">Key Mapper was interrupted</string>
-    <string name="dialog_message_key_mapper_crashed">Key Mapper tried to run in the background but was stopped by the system.\nThis can happen if you have battery or memory optimisation turned on.\n\nTo fix this, you can try following an online guide. You should also restart the service when you\'re done.</string>
+    <string name="dialog_title_key_mapper_crashed">Braille Mapper was interrupted</string>
+    <string name="dialog_message_key_mapper_crashed">Braille Mapper tried to run in the background but was stopped by the system.\nThis can happen if you have battery or memory optimisation turned on.\n\nTo fix this, you can try following an online guide. You should also restart the service when you\'re done.</string>
     <string name="dialog_button_read_dont_kill_my_app_yes">Proceed</string>
     <string name="dialog_button_read_dont_kill_my_app_no">Ignore</string>
 
@@ -469,8 +469,8 @@
 
     <string name="dialog_title_home_fix_error">Fix error</string>
 
-    <string name="dialog_message_no_app_found_to_create_file">You have no files app installed that allows you to create a file for Key Mapper. Please install a file manager.</string>
-    <string name="dialog_message_no_app_found_to_choose_a_file">You have no files app installed that allows you to choose a file for Key Mapper. Please install a file manager.</string>
+    <string name="dialog_message_no_app_found_to_create_file">You have no files app installed that allows you to create a file for Braille Mapper. Please install a file manager.</string>
+    <string name="dialog_message_no_app_found_to_choose_a_file">You have no files app installed that allows you to choose a file for Braille Mapper. Please install a file manager.</string>
 
     <string name="dialog_title_accessibility_service_explanation">Accessibility service must be enabled</string>
     <string name="dialog_message_accessibility_service_explanation">@string/accessibility_service_explanation</string>
@@ -479,7 +479,7 @@
     <string name="dialog_restricted_setting_link_text">Tap to read instructions.</string>
 
     <string name="dialog_title_fix_dnd_trigger_error">Grant Do Not Disturb access</string>
-    <string name="dialog_message_fix_dnd_trigger_error">You will be taken to your device\'s settings page to manage which apps can modify the Do Not Disturb state. This is <b>not present on some devices</b> so tap don\'t show again if you do not see Key Mapper in the list.</string>
+    <string name="dialog_message_fix_dnd_trigger_error">You will be taken to your device\'s settings page to manage which apps can modify the Do Not Disturb state. This is <b>not present on some devices</b> so tap don\'t show again if you do not see Braille Mapper in the list.</string>
 
     <string name="dialog_message_sort_sort_by">Sort by</string>
     <string name="sorting_drag_and_drop_list_help">Drag the handles to adjust priorities. The item at the top is the most important. You can also tap any item to reverse its sort order.</string>
@@ -532,16 +532,16 @@
     <!-- Notification strings -->
     <string name="notification_channel_toggle_mappings">Pause/Resume key maps</string>
     <string name="notification_channel_keyboard_hidden">Keyboard is hidden warning</string>
-    <string name="notification_channel_toggle_keyboard">Toggle Key Mapper Input Method</string>
+    <string name="notification_channel_toggle_keyboard">Toggle Braille Mapper Input Method</string>
     <string name="notification_channel_new_features">New features</string>
     <string name="notification_channel_custom_notifications">Custom notifications</string>
 
     <string name="notification_keymaps_resumed_title">Running</string>
-    <string name="notification_keymaps_resumed_text">Tap to open Key Mapper.</string>
+    <string name="notification_keymaps_resumed_text">Tap to open Braille Mapper.</string>
     <string name="notification_action_pause">Pause</string>
 
     <string name="notification_keymaps_paused_title">Paused</string>
-    <string name="notification_keymaps_paused_text">Tap to open Key Mapper.</string>
+    <string name="notification_keymaps_paused_text">Tap to open Braille Mapper.</string>
     <string name="notification_action_resume">Resume</string>
 
     <string name="notification_action_dismiss">Dismiss</string>
@@ -560,8 +560,8 @@
     <string name="notification_keyboard_hidden_title">Keyboard is hidden!</string>
     <string name="notification_keyboard_hidden_text">Tap \'show keyboard\' to start showing the keyboard again.</string>
 
-    <string name="notification_toggle_keyboard_title">Toggle Key Mapper Input Method</string>
-    <string name="notification_toggle_keyboard_text">Tap \'toggle\' to switch to and from the Key Mapper Input Method.</string>
+    <string name="notification_toggle_keyboard_title">Toggle Braille Mapper Input Method</string>
+    <string name="notification_toggle_keyboard_text">Tap \'toggle\' to switch to and from the Braille Mapper Input Method.</string>
     <string name="notification_toggle_keyboard_action">Toggle</string>
 
     <string name="notification_migrate_screen_off_key_map_title">Your screen off key maps need attention!</string>
@@ -600,10 +600,10 @@
     <string name="summary_pref_automatic_backup_location_disabled">Back up after modifying key maps</string>
 
     <string name="title_pref_auto_change_ime_on_connection">Automatically change the on-screen keyboard when a device (e.g a keyboard) connects/disconnects</string>
-    <string name="summary_pref_auto_change_ime_on_connection">The Key Mapper Input Method will be automatically selected when a chosen device is connected. Your normal keyboard will be automatically selected when the device disconnects.</string>
+    <string name="summary_pref_auto_change_ime_on_connection">The Braille Mapper Input Method will be automatically selected when a chosen device is connected. Your normal keyboard will be automatically selected when the device disconnects.</string>
 
     <string name="title_pref_auto_change_ime_on_input_focus">Automatically change the on-screen keyboard when you start inputting text</string>
-    <string name="summary_pref_auto_change_ime_on_input_focus">The last used normal on-screen keyboard will be automatically selected when you try to open the keyboard. The Key Mapper Input Method will be automatically selected once you stop using the keyboard.</string>
+    <string name="summary_pref_auto_change_ime_on_input_focus">The last used normal on-screen keyboard will be automatically selected when you try to open the keyboard. The Braille Mapper Input Method will be automatically selected once you stop using the keyboard.</string>
 
     <string name="title_pref_show_toast_when_auto_changing_ime">On-screen message</string>
     <string name="summary_pref_show_toast_when_auto_changing_ime">Show when automatically changing the keyboard</string>
@@ -614,11 +614,11 @@
     <string name="title_pref_dark_theme">Choose theme</string>
     <string name="summary_pref_dark_theme">Light and dark themes available</string>
 
-    <string name="summary_pref_show_toggle_keyboard_notification">Switch between the Key Mapper Input Method and your normal keyboard when you tap the notification.</string>
-    <string name="title_pref_show_toggle_keyboard_notification">Toggle Key Mapper Input Method notification</string>
+    <string name="summary_pref_show_toggle_keyboard_notification">Switch between the Braille Mapper Input Method and your normal keyboard when you tap the notification.</string>
+    <string name="title_pref_show_toggle_keyboard_notification">Toggle Braille Mapper Input Method notification</string>
 
     <string name="title_pref_toggle_keyboard_on_toggle_keymaps">Automatically change the keyboard when toggling key maps</string>
-    <string name="summary_pref_toggle_keyboard_on_toggle_keymaps">Automatically select the Key Mapper Input Method when you resume your key maps and select your default keyboard when pausing them.</string>
+    <string name="summary_pref_toggle_keyboard_on_toggle_keymaps">Automatically select the Braille Mapper Input Method when you resume your key maps and select your default keyboard when pausing them.</string>
 
     <string name="title_pref_hide_home_screen_alerts">Hide home screen alerts</string>
     <string name="summary_pref_hide_home_screen_alerts">Hide the alerts at the top of the home screen</string>
@@ -628,7 +628,7 @@
 
     <string name="title_pref_toggle_logging">Enable extra logging</string>
     <string name="summary_pref_toggle_logging">Record more detailed logs</string>
-    <string name="title_pref_view_and_share_log">View Key Mapper log</string>
+    <string name="title_pref_view_and_share_log">View Braille Mapper log</string>
     <string name="summary_pref_view_and_share_log">Share this with the developer if you\'re having issues</string>
 
     <string name="title_pref_share_logcat">Share logcat</string>
@@ -649,8 +649,8 @@
     <string name="title_pref_grant_shizuku_not_started">2. Shizuku is not started! Tap to open the Shizuku app and then read their instructions that explain how to start it.</string>
     <string name="title_pref_grant_shizuku_started">2. Shizuku is started.</string>
 
-    <string name="title_pref_grant_shizuku_not_granted">3. Key Mapper does not have permission to use Shizuku. Tap to grant this permission.</string>
-    <string name="title_pref_grant_shizuku_granted">3. Key Mapper will automatically use Shizuku. Tap to read which Key Mapper features use Shizuku.</string>
+    <string name="title_pref_grant_shizuku_not_granted">3. Braille Mapper does not have permission to use Shizuku. Tap to grant this permission.</string>
+    <string name="title_pref_grant_shizuku_granted">3. Braille Mapper will automatically use Shizuku. Tap to read which Braille Mapper features use Shizuku.</string>
 
     <string name="title_pref_default_options">Change default options</string>
     <string name="summary_pref_default_options">For triggers and actions</string>
@@ -675,7 +675,7 @@
     <string name="summary_pref_category_root">These options will only work on root devices! If you don\'t know what root is or whether your device is rooted, please don\'t leave a poor review if they don\'t work. :)</string>
 
     <string name="title_pref_category_write_secure_settings">Require WRITE_SECURE_SETTINGS permission</string>
-    <string name="summary_pref_category_write_secure_settings">These options are only enabled if Key Mapper has WRITE_SECURE_SETTINGS permission. Click the button below to learn how to grant the permission.</string>
+    <string name="summary_pref_category_write_secure_settings">These options are only enabled if Braille Mapper has WRITE_SECURE_SETTINGS permission. Click the button below to learn how to grant the permission.</string>
 
     <string name="title_pref_automatically_change_ime">Automatically switch keyboard</string>
     <string name="summary_pref_automatically_change_ime">Switch when needed then switch back</string>
@@ -745,8 +745,8 @@
     <string name="tile_paused_subtitle">Paused</string>
     <string name="tile_running_subtitle">Running</string>
     <string name="tile_service_disabled">Service Disabled</string>
-    <string name="tile_accessibility_service_disabled_content_description">Key Mapper accessibility service is disabled</string>
-    <string name="tile_toggle_keymapper_keyboard">Toggle Key Mapper Input Method</string>
+    <string name="tile_accessibility_service_disabled_content_description">Braille Mapper accessibility service is disabled</string>
+    <string name="tile_toggle_keymapper_keyboard">Toggle Braille Mapper Input Method</string>
     <!-- Tiles -->
 
     <!-- Meta States -->
@@ -774,12 +774,12 @@
     <!-- Meta States -->
 
     <!-- Error messages -->
-    <string name="error_ime_must_be_chosen">You must be using the Key Mapper Input Method for this action to work!</string>
+    <string name="error_ime_must_be_chosen">You must be using the Braille Mapper Input Method for this action to work!</string>
 
     <string name="error_app_isnt_installed">The app with package name %s isn\'t installed!</string>
 
     <string name="error_app_is_disabled_package_name">App %s is disabled!</string>
-    <string name="error_action_requires_write_settings_permission">You need to grant Key Mapper permission to modify system settings.</string>
+    <string name="error_action_requires_write_settings_permission">You need to grant Braille Mapper permission to modify system settings.</string>
     <string name="error_requires_root">This requires root permission!</string>
     <string name="error_action_requires_camera_permission">This action requires camera permission!</string>
     <string name="error_sdk_version_too_low">Requires Android %s or newer</string>
@@ -793,14 +793,14 @@
     <string name="error_system_feature_camera_flash_unsupported">Your device doesn\'t have a camera flash.</string>
     <string name="error_system_feature_telephony_unsupported">Your device can not use telephony features. Is a SIM card inserted?</string>
     <string name="error_cant_find_ime_settings">Can\'t find the keyboard settings page!</string>
-    <string name="error_need_to_enable_device_admin">Key Mapper needs to be a device administrator!</string>
-    <string name="error_keymapper_doesnt_have_permission_app_shortcut">Key Mapper doesn\'t have permission to use that shortcut</string>
+    <string name="error_need_to_enable_device_admin">Braille Mapper needs to be a device administrator!</string>
+    <string name="error_keymapper_doesnt_have_permission_app_shortcut">Braille Mapper doesn\'t have permission to use that shortcut</string>
     <string name="error_action_notification_policy_permission">The app needs permission to change the Do Not Disturb state!</string>
     <string name="error_action_requires_read_phone_state_permission">This action needs permission to read the phone state!</string>
     <string name="error_cant_find_write_settings_page">Can\'t find the WRITE_SETTINGS permission page!</string>
     <string name="error_opening_app_shortcut">Error opening this app shortcut</string>
     <string name="error_cant_find_dnd_access_settings">Can\'t find the Do Not Disturb access permission settings!</string>
-    <string name="error_need_write_secure_settings_permission">Key Mapper needs WRITE_SECURE_SETTINGS permission.</string>
+    <string name="error_need_write_secure_settings_permission">Braille Mapper needs WRITE_SECURE_SETTINGS permission.</string>
     <string name="error_no_app_to_phone_call">There is no app that can start this phone call</string>
     <string name="error_no_app_to_send_sms">There is no app that can send this SMS</string>
 
@@ -817,7 +817,7 @@
     <string name="error_accessibility_service_crashed">The accessibility service needs to be restarted!</string>
     <string name="error_launcher_shortcuts_not_supported">Your launcher doesn\'t support shortcuts.</string>
 
-    <string name="error_key_mapper_ime_service_disabled">The Key Mapper Input Method needs to be enabled!</string>
+    <string name="error_key_mapper_ime_service_disabled">The Braille Mapper Input Method needs to be enabled!</string>
     <string name="error_ime_not_found">Can\'t find the %s input method</string>
     <string name="error_cant_show_ime_picker_in_background">The input method picker can\'t be shown!</string>
     <string name="error_failed_to_find_accessibility_node">Failed to find accessibility node!</string>
@@ -837,7 +837,7 @@
     <string name="error_invalid_number">Invalid number!</string>
     <string name="error_number_too_small">Must be at least %s!</string>
     <string name="error_number_too_big">Must be at most %s!</string>
-    <string name="error_battery_optimisation_enabled">Battery optimisation is turned on! Turn this off because this can randomly stop Key Mapper from working.</string>
+    <string name="error_battery_optimisation_enabled">Battery optimisation is turned on! Turn this off because this can randomly stop Braille Mapper from working.</string>
     <string name="error_denied_notification_listener_service_permission">Denied notification access permission!</string>
     <string name="error_invalid_intent_extra_value">Invalid!</string>
     <string name="error_denied_call_phone_permission">Denied permission to start phone calls!</string>
@@ -852,7 +852,7 @@
     <string name="error_sms_network_error">Can\'t send SMS. Network error.</string>
     <string name="error_sms_blocked_during_emergency">Can\'t send SMS during emergency call.</string>
     <string name="error_sms_no_sim">Can\'t send SMS. No SIM card detected.</string>
-    <string name="error_backup_version_too_new">You will need to update Key Mapper to the latest version to use this backup.</string>
+    <string name="error_backup_version_too_new">You will need to update Braille Mapper to the latest version to use this backup.</string>
     <string name="error_voice_assistant_not_found">There is no voice assistant installed!</string>
     <string name="error_insufficient_permissions">Insufficient permissions</string>
     <string name="error_no_incompatible_input_methods_installed">You have no on-screen keyboards installed!</string>
@@ -878,8 +878,8 @@
     <string name="error_shizuku_permission_denied">Shizuku permission is denied!</string>
     <string name="error_shizuku_not_started">Shizuku is not started!</string>
     <string name="error_no_file_name">This file has no name!</string>
-    <string name="error_invalid_backup">Invalid file. Must be a zip exported from Key Mapper.</string>
-    <string name="error_choose_bluetooth_devices_permission_denied">You must grant Key Mapper permission to see your paired Bluetooth devices.</string>
+    <string name="error_invalid_backup">Invalid file. Must be a zip exported from Braille Mapper.</string>
+    <string name="error_choose_bluetooth_devices_permission_denied">You must grant Braille Mapper permission to see your paired Bluetooth devices.</string>
     <string name="error_malformed_url">Malformed URL. Did you forget the http://?</string>
 
     <string name="error_access_fine_location_permission_denied">Denied permission to read fine location!</string>
@@ -1169,7 +1169,7 @@
     <string name="action_shell_command_description_with_standard">Execute: %s</string>
 
     <string name="action_interact_ui_element_title">Interact with app element</string>
-    <string name="action_interact_ui_element_description">Key Mapper can detect and interact with app elements like menus, tabs, buttons and checkboxes. You need to record yourself interacting with the app so that Key Mapper knows what you want to do.</string>
+    <string name="action_interact_ui_element_description">Braille Mapper can detect and interact with app elements like menus, tabs, buttons and checkboxes. You need to record yourself interacting with the app so that Braille Mapper knows what you want to do.</string>
     <string name="action_interact_ui_element_start_recording">Start recording</string>
     <string name="action_interact_ui_element_stop_recording">Stop recording (%s min left)</string>
     <plurals name="action_interact_ui_element_elements_detected">
@@ -1294,7 +1294,7 @@
     <string name="intent_type_short_example">A valid Short in the Java programming language. E.g 2342</string>
     <string name="intent_type_short_array_example">A comma-separated list of valid Shorts in the Java programming language. E.g 3242,12354</string>
 
-    <string name="intent_flags_example">The flags for an Intent are stored as bit flags. These flags alter how the Intent is handled. If this is blank for an Activity Intent then Key Mapper will use FLAG_ACTIVITY_NEW_TASK by default. For much more information tap \'docs\' to see the Android developers documentation.</string>
+    <string name="intent_flags_example">The flags for an Intent are stored as bit flags. These flags alter how the Intent is handled. If this is blank for an Activity Intent then Braille Mapper will use FLAG_ACTIVITY_NEW_TASK by default. For much more information tap \'docs\' to see the Android developers documentation.</string>
     <!--  Intent action type strings  -->
 
     <!--  About  -->
@@ -1337,9 +1337,9 @@
     <!--  About  -->
 
     <!-- Support screen -->
-    <string name="support_key_mapper_title">Support Key Mapper ❤️</string>
+    <string name="support_key_mapper_title">Support Braille Mapper ❤️</string>
     <string name="support_key_mapper_subtitle">Choose add-ons to upgrade your experience</string>
-    <string name="support_key_mapper_sub_subtitle">Your support keeps Key Mapper alive!</string>
+    <string name="support_key_mapper_sub_subtitle">Your support keeps Braille Mapper alive!</string>
     <string name="support_key_mapper_quote">"Floating button feature is a game changer"</string>
     <string name="support_key_mapper_quote_attribution">Google Play reviewer</string>
     <string name="support_key_mapper_quote_1">Floating buttons is a game changer!</string>
@@ -1363,7 +1363,7 @@
     <string name="feature_gemini">Gemini</string>
 
     <!-- Advanced triggers -->
-    <string name="assistant_activity_name">Key Mapper: Side Key</string>
+    <string name="assistant_activity_name">Braille Mapper: Side Key</string>
     <string name="assistant_any_trigger_name">Any assistant</string>
     <string name="assistant_device_trigger_name">Side key/power button</string>
     <string name="assistant_voice_trigger_name">Voice assistant</string>
@@ -1380,7 +1380,7 @@
     <string name="purchased_product_label">Purchased!</string>
     <string name="retry_loading_price_button">Retry fetching price</string>
     <string name="purchasing_error_cancelled">Purchase cancelled.</string>
-    <string name="purchasing_error_not_implemented">This requires a paid feature that can only be bought by downloading Key Mapper from Google Play.</string>
+    <string name="purchasing_error_not_implemented">This requires a paid feature that can only be bought by downloading Braille Mapper from Google Play.</string>
     <string name="purchasing_error_network">Network error encountered. Do you have an internet connection?</string>
     <string name="purchasing_error_product_not_found">This product was not found.</string>
     <string name="purchasing_error_store_problem">Google Play encountered an error.</string>
@@ -1393,16 +1393,16 @@
     <string name="purchasing_error_assistant_not_purchased_home_screen">You must purchase the side key trigger feature! Tap on the key map and then purchase it by clicking on the shop.</string>
     <string name="purchasing_error_floating_buttons_not_purchased_home_screen">You must purchase the floating buttons feature! Tap on the key map and then purchase it by clicking on the shop.</string>
     <string name="purchasing_contact_email" translatable="false">contact@keymapper.club</string>
-    <string name="customer_email_subject" translatable="false">Key Mapper Pro query</string>
-    <string name="customer_email_body" translatable="false">Please fill the following information so I can help you.\n\n1. Device model:\n2. Android version:\n3. Key maps (make a back up in the home screen menu):\n4. Screenshot of Key Mapper home screen:\n5. Describe the problem you are having:</string>
+    <string name="customer_email_subject" translatable="false">Braille Mapper Pro query</string>
+    <string name="customer_email_body" translatable="false">Please fill the following information so I can help you.\n\n1. Device model:\n2. Android version:\n3. Key maps (make a back up in the home screen menu):\n4. Screenshot of Braille Mapper home screen:\n5. Describe the problem you are having:</string>
     <string name="purchase_thank_you_title">Thank you for supporting the app!</string>
     <string name="purchase_thank_you_message">Your purchase was successful. As a paying user of Key\u00A0Mapper you will receive priority support to help you use the app. There is now a button in the shop to contact the developer.</string>
-    <string name="purchasing_not_implemented_bottom_sheet_text">The advanced triggers are paid feature but you downloaded the FOSS build of Key Mapper that does not include this closed source module or Google Play billing. Please download Key Mapper from Google Play to get access to this feature.</string>
+    <string name="purchasing_not_implemented_bottom_sheet_text">The advanced triggers are paid feature but you downloaded the FOSS build of Braille Mapper that does not include this closed source module or Google Play billing. Please download Braille Mapper from Google Play to get access to this feature.</string>
     <string name="purchasing_download_key_mapper_from_google_play">Download Play build</string>
 
     <!-- No keys recorded bottom sheet -->
     <string name="no_keys_recorded_bottom_sheet_title">Button not detected?</string>
-    <string name="no_keys_recorded_bottom_sheet_text">You can try using the Key Mapper GUI Keyboard app to record your trigger instead of the accessibility service.</string>
+    <string name="no_keys_recorded_bottom_sheet_text">You can try using the Braille Mapper GUI Keyboard app to record your trigger instead of the accessibility service.</string>
     <string name="no_keys_recorded_setup_complete_text">Setup complete! Tap \'Done\' and try recording your trigger again. If it doesn’t work then Android will not let it be remapped 🫤.</string>
 
     <!--  Floating buttons  -->
@@ -1442,7 +1442,7 @@
     <string name="tip_screen_pinning_title">App pinning warning</string>
     <string name="tip_screen_pinning_text">Using the back button as a trigger may conflict with app pinning, causing a black screen on unlock. A reboot will fix it.</string>
     <string name="tip_ime_detection_title">Keyboard icon</string>
-    <string name="tip_ime_detection_text">The ⌨ symbol means you must use the Key Mapper input method for this trigger to work due to an Android restriction.</string>
+    <string name="tip_ime_detection_text">The ⌨ symbol means you must use the Braille Mapper input method for this trigger to work due to an Android restriction.</string>
     <string name="tip_ringer_mode_title">Ringer mode actions</string>
     <string name="tip_ringer_mode_text">Consider using Expert Mode for ringer mode actions to avoid conflicts with Do Not Disturb settings.</string>
     <string name="tip_ringer_mode_button">Use Expert Mode</string>
@@ -1664,18 +1664,18 @@
     <string name="expert_mode_warning_understand_button_completed">Understood</string>
     <string name="expert_mode_set_up_title">Set up</string>
     <string name="expert_mode_root_detected_title">Root detected</string>
-    <string name="expert_mode_root_detected_text">You can skip the set up process by giving Key Mapper root permission. This will let Key Mapper auto start Expert Mode without having to wait for a WiFi connection as well.</string>
+    <string name="expert_mode_root_detected_text">You can skip the set up process by giving Braille Mapper root permission. This will let Braille Mapper auto start Expert Mode without having to wait for a WiFi connection as well.</string>
     <string name="expert_mode_root_detected_button_start_service">Start Expert Mode</string>
     <string name="expert_mode_shizuku_detected_title">Shizuku detected</string>
-    <string name="expert_mode_shizuku_detected_text">You can skip the set up process by giving Key Mapper Shizuku permission.</string>
+    <string name="expert_mode_shizuku_detected_text">You can skip the set up process by giving Braille Mapper Shizuku permission.</string>
     <string name="expert_mode_shizuku_detected_button_start">Start Shizuku</string>
     <string name="expert_mode_shizuku_detected_button_request_permission">Request permission</string>
     <string name="expert_mode_shizuku_detected_button_start_service">Start Expert Mode</string>
-    <string name="expert_mode_set_up_with_key_mapper_title">Set up with Key Mapper</string>
+    <string name="expert_mode_set_up_with_key_mapper_title">Set up with Braille Mapper</string>
     <string name="expert_mode_set_up_with_key_mapper_button">Continue</string>
     <string name="expert_mode_set_up_with_key_mapper_button_incompatible">(Requires Android 11+)</string>
     <string name="expert_mode_enable_for_all_key_maps_title">Enable Expert Mode for all key maps</string>
-    <string name="expert_mode_enable_for_all_key_maps_text">Key Mapper will use the ADB Shell for remapping</string>
+    <string name="expert_mode_enable_for_all_key_maps_text">Braille Mapper will use the ADB Shell for remapping</string>
     <string name="expert_mode_settings_unavailable_text">These settings are unavailable until you acknowledge the warning.</string>
     <string name="expert_mode_service_started">Expert Mode service is running</string>
     <string name="expert_mode_stop_service_button">Stop</string>
@@ -1708,25 +1708,25 @@
     <string name="expert_mode_setup_wizard_start_service_button">Start service</string>
 
     <string name="expert_mode_setup_wizard_enable_accessibility_service_title">Enable accessibility service</string>
-    <string name="expert_mode_setup_wizard_enable_accessibility_service_description">Key Mapper uses this service to help with setup. It\'s also needed for ordinary key maps.</string>
+    <string name="expert_mode_setup_wizard_enable_accessibility_service_description">Braille Mapper uses this service to help with setup. It\'s also needed for ordinary key maps.</string>
 
     <string name="expert_mode_setup_wizard_enable_developer_options_title">Enable developer options</string>
-    <string name="expert_mode_setup_wizard_enable_developer_options_description">Key Mapper needs to use Android Debug Bridge (ADB) so you need to enable developer options.</string>
+    <string name="expert_mode_setup_wizard_enable_developer_options_description">Braille Mapper needs to use Android Debug Bridge (ADB) so you need to enable developer options.</string>
 
     <string name="expert_mode_setup_wizard_connect_wifi_title">Connect to a WiFi network</string>
-    <string name="expert_mode_setup_wizard_connect_wifi_description">Key Mapper needs a WiFi network to enable ADB. You do not need an internet connection.\n\nNo WiFi network? Use a hotspot from someone else\'s phone.</string>
+    <string name="expert_mode_setup_wizard_connect_wifi_description">Braille Mapper needs a WiFi network to enable ADB. You do not need an internet connection.\n\nNo WiFi network? Use a hotspot from someone else\'s phone.</string>
 
     <string name="expert_mode_setup_wizard_enable_wireless_debugging_title">Enable wireless debugging</string>
-    <string name="expert_mode_setup_wizard_enable_wireless_debugging_description">Key Mapper uses wireless debugging to launch its remapping and input service.</string>
+    <string name="expert_mode_setup_wizard_enable_wireless_debugging_description">Braille Mapper uses wireless debugging to launch its remapping and input service.</string>
 
     <string name="expert_mode_setup_wizard_pair_wireless_debugging_title">Pair wireless debugging</string>
-    <string name="expert_mode_setup_wizard_pair_wireless_debugging_description">Key Mapper needs to pair with wireless debugging before it can launch its remapping and input service.</string>
+    <string name="expert_mode_setup_wizard_pair_wireless_debugging_description">Braille Mapper needs to pair with wireless debugging before it can launch its remapping and input service.</string>
 
     <string name="expert_mode_setup_wizard_start_service_title">Start service</string>
-    <string name="expert_mode_setup_wizard_start_service_description">Key Mapper needs to connect to ADB to start the service.</string>
+    <string name="expert_mode_setup_wizard_start_service_description">Braille Mapper needs to connect to ADB to start the service.</string>
 
     <string name="expert_mode_setup_wizard_enable_notification_permission_title">Allow notifications</string>
-    <string name="expert_mode_setup_wizard_enable_notification_permission_description">Key Mapper needs permission to notify you if there are any issues with the set up process.</string>
+    <string name="expert_mode_setup_wizard_enable_notification_permission_description">Braille Mapper needs permission to notify you if there are any issues with the set up process.</string>
     <string name="expert_mode_setup_wizard_enable_notification_permission_button">Give permission</string>
 
     <string name="expert_mode_setup_wizard_change_default_usb_configuration_title">Incompatible USB configuration</string>
@@ -1796,7 +1796,7 @@
     <string name="trigger_discover_shortcut_lock_screen">Lock screen</string>
 
     <string name="trigger_discover_promo_title">Upgrade your experience</string>
-    <string name="trigger_discover_promo_description">Floating buttons are instant shortcuts in any app, game or on your lock screen. Your support keeps Key Mapper alive ❤️</string>
+    <string name="trigger_discover_promo_description">Floating buttons are instant shortcuts in any app, game or on your lock screen. Your support keeps Braille Mapper alive ❤️</string>
     <string name="trigger_discover_promo_see_action">See it in action</string>
     <string name="trigger_discover_promo_dismiss">Dismiss</string>
     <string name="trigger_discover_promo_unlock">Unlock for just %s</string>
@@ -1848,7 +1848,7 @@
     <string name="trigger_setup_gamepad_type_dpad">D-Pad button</string>
     <string name="trigger_setup_gamepad_type_simple_buttons">Other simple buttons</string>
     <string name="trigger_setup_gamepad_information_dpad">You will not be able to use your normal on-screen keyboard when remapping DPAD buttons.</string>
-    <string name="trigger_setup_input_method_title">Key Mapper input method</string>
+    <string name="trigger_setup_input_method_title">Braille Mapper input method</string>
     <string name="trigger_setup_input_method_enable_button">Enable</string>
     <string name="trigger_setup_input_method_choose_button">Choose</string>
     <string name="trigger_setup_input_method_running_button">Running</string>
@@ -1857,12 +1857,12 @@
     <!--  fix key event action bottom sheet  -->
     <string name="fix_key_event_action_title">Fix key event action</string>
     <string name="fix_key_event_action_text">There are extra steps to use this action. Select which method you want to use:</string>
-    <string name="fix_key_event_action_input_method_title">Key Mapper input method</string>
+    <string name="fix_key_event_action_input_method_title">Braille Mapper input method</string>
     <string name="fix_key_event_action_input_method_text">No on-screen keyboard</string>
     <string name="fix_key_event_action_expert_mode_text_1">Can use your normal on-screen keyboard at all times</string>
     <string name="fix_key_event_action_expert_mode_text_2">Better compatibility with apps and games</string>
-    <string name="fix_key_event_action_enable_input_method_button">Enable Key Mapper input method</string>
-    <string name="fix_key_event_action_use_input_method_button">Use Key Mapper input method</string>
+    <string name="fix_key_event_action_enable_input_method_button">Enable Braille Mapper input method</string>
+    <string name="fix_key_event_action_use_input_method_button">Use Braille Mapper input method</string>
     <string name="fix_key_event_action_auto_switch_ime_text">Automatically switch to normal on-screen keyboard when typing</string>
     <string name="fix_key_event_action_change_in_settings_caption">You can always change this in Settings</string>
     <string name="fix_key_event_action_setup_title">Setup</string>
@@ -1870,7 +1870,7 @@
 
     <string name="button_test_sms">Test SMS</string>
     <string name="test_sms_result_ok">Sent successfully!</string>
-    <string name="warning_sms_charges">Sending SMS may incur carrier or roaming charges. Key Mapper developers are not liable for any costs.</string>
+    <string name="warning_sms_charges">Sending SMS may incur carrier or roaming charges. Braille Mapper developers are not liable for any costs.</string>
     <string name="hint_shell_command_description">Description</string>
     <string name="hint_shell_command_timeout">Timeout</string>
 

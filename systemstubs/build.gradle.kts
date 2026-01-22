@@ -7,6 +7,7 @@ plugins {
 android {
     namespace = "io.github.sds100.keymapper.systemstubs"
     compileSdk = libs.versions.compile.sdk.get().toInt()
+    buildToolsVersion = libs.versions.build.tools.get()
 
     defaultConfig {
         minSdk = libs.versions.min.sdk.get().toInt()

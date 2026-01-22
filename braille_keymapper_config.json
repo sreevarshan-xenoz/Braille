@@ -1,0 +1,202 @@
+{
+  "keymap_list": [
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-1"},
+          {"keyCode": 29, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "a-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "answer_phone_call", "extras": [], "flags": 0, "uid": "act-1"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-a-answer"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-2"},
+          {"keyCode": 32, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "d-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "end_phone_call", "extras": [], "flags": 0, "uid": "act-2"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-d-decline"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-3"},
+          {"keyCode": 35, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "g-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "go_home", "extras": [], "flags": 0, "uid": "act-3"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-g-home"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-4"},
+          {"keyCode": 30, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "b-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "go_back", "extras": [], "flags": 0, "uid": "act-4"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-b-back"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-5"},
+          {"keyCode": 46, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "r-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "open_recents", "extras": [], "flags": 0, "uid": "act-5"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-r-recents"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-6"},
+          {"keyCode": 51, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "w-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "open_assistant", "extras": [], "flags": 0, "uid": "act-6"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-w-voice"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-7"},
+          {"keyCode": 42, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "n-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "expand_notification_drawer", "extras": [], "flags": 0, "uid": "act-7"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-n-notif"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-8"},
+          {"keyCode": 45, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "q-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "expand_quick_settings", "extras": [], "flags": 0, "uid": "act-8"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-q-quick"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-9"},
+          {"keyCode": 47, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "s-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "open_settings", "extras": [], "flags": 0, "uid": "act-9"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-s-settings"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-10"},
+          {"keyCode": 40, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "l-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "lock_device", "extras": [], "flags": 0, "uid": "act-10"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-l-lock"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-11"},
+          {"keyCode": 33, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "e-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "collapse_status_bar", "extras": [], "flags": 0, "uid": "act-11"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-e-collapse"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-12"},
+          {"keyCode": 34, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "f-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "toggle_flashlight", "extras": [{"id": "extra_flash", "data": "BACK"}], "flags": 0, "uid": "act-12"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-f-flash"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-13"},
+          {"keyCode": 44, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "p-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "play_pause_media", "extras": [], "flags": 0, "uid": "act-13"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-p-play"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-14"},
+          {"keyCode": 52, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "x-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "next_track", "extras": [], "flags": 0, "uid": "act-14"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-x-next"
+    },
+    {
+      "trigger": {
+        "keys": [
+          {"keyCode": 113, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "ctrl-15"},
+          {"keyCode": 54, "deviceId": "io.github.sds100.keymapper.ANY_DEVICE", "clickType": 0, "uid": "z-1"}
+        ],
+        "extras": [],
+        "mode": 0,
+        "flags": 0
+      },
+      "actionList": [{"type": "SYSTEM_ACTION", "data": "previous_track", "extras": [], "flags": 0, "uid": "act-15"}],
+      "constraintList": [], "constraintMode": 0, "flags": 0, "isEnabled": true, "uid": "km-ctrl-z-prev"
+    }
+  ],
+  "fingerprint_map_list": [],
+  "floating_layout_list": [],
+  "group_list": []
+}
