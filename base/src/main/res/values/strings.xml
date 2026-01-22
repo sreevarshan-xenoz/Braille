@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Braille Mapper</string>
+    <string name="app_name" translatable="false">Cipher</string>
     <string name="slogan">Accessibility shortcuts for braille keyboards!</string>
 
     <string name="accessibility_service_explanation">Braille Mapper requires the use of an accessibility service so that it can detect and change what your button presses do while you are outside of the app. Your key maps will only work once you have enabled the accessibility service. It must also be turned on to create a trigger and test actions.</string>
